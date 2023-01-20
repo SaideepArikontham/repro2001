@@ -5,12 +5,6 @@
 			"referenceName": "adls",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"filename": {
-				"type": "string",
-				"defaultValue": "demo"
-			}
-		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
