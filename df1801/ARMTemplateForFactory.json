@@ -198,7 +198,9 @@
 							{
 								"referenceName": "Json2",
 								"type": "DatasetReference",
-								"parameters": {}
+								"parameters": {
+									"filename": "hello"
+								}
 							}
 						]
 					}
@@ -317,6 +319,12 @@
 				"linkedServiceName": {
 					"referenceName": "adls",
 					"type": "LinkedServiceReference"
+				},
+				"parameters": {
+					"filename": {
+						"type": "string",
+						"defaultValue": "demo"
+					}
 				},
 				"annotations": [],
 				"type": "Json",
