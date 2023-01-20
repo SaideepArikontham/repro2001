@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df1801"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"adls_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalk2001.dfs.core.windows.net/"
+		},
+		"adls_properties_typeProperties_url": {
+			"value": "https://datalk1801.dfs.core.windows.net/"
+		},
+		"trigger1_properties_pipeline1_parameters_fileName": {
+			"value": "@triggerBody().fileName"
+		},
+		"trigger1_properties_pipeline1_parameters_folderName": {
+			"value": "@triggerBody().folderPath"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/b83c1ed3-c5b6-44fb-b5ba-2b83a074c23f/resourceGroups/v-sarikontha-Mindtree/providers/Microsoft.Storage/storageAccounts/datalk1801"
+		}
+	}
+}
