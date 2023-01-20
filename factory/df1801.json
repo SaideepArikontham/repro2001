@@ -1,0 +1,9 @@
+{
+	"name": "df1801",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "06500369-f56f-4109-893e-bf581d9b9541",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
