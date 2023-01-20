@@ -1,5 +1,5 @@
 {
-	"name": "Json3",
+	"name": "Json2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "adls",
